@@ -1,0 +1,98 @@
+/* ---###---###--- Common ---###---###--- */
+body {
+    margin: auto;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+/* ---###---###--- Header ---###---###--- */
+header {
+    background-image: url("images/baniere.jpg");
+}
+
+.baniere {
+    height: 500px;
+    
+}
+
+.baniere h1{
+    color: #333;
+    margin: auto;
+    padding: 200px 0;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+
+
+
+/* ---###---###--- Menu ---###---###--- */
+.menu {
+    background: #50A7DC;
+}
+
+.menu nav {
+    
+}
+
+.menu nav ul {
+    height: 60px;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
+    
+}
+
+.menu p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu nav ul a {
+    color: #333;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu nav ul a:hover {
+    color: #348af4;
+    background: white;
+}
+
+
+
+
+/* ---###---###--- Footer ---###---###--- */
+footer {
+    height: 50px;
+    background: #777;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

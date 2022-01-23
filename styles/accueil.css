@@ -1,0 +1,20 @@
+/* ---###---###--- Main ---###---###--- */
+main {
+    margin: 30px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section1 {
+    
+}
+
+.section1 h2 {
+    text-align: center;
+}
+
+.section2 img {
+    height: 360px;
+    width: 500px;
+    padding: 0 15px;
+}

@@ -1,0 +1,147 @@
+/* ---###---###--- Main ---###---###--- */
+main {
+    margin: 30px 40px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+	box-shadow : 8px 8px 12px #aaa;		
+}
+
+
+
+
+/* ---###---###--- Section 1 ---###---###--- */
+.section1 {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    margin-right: 10px;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 2px solid #333;
+}
+
+.box input[type = "text"], .box textarea {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px 10px;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: #333;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type = "text"]:focus, .box textarea:focus {
+    width: 380px;
+    border-color: #499F68;
+}
+
+button[type = "submit"] {
+    height: 50px;
+    width: 300px;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #499F68;
+    padding: 14px 40px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+
+button[type = "submit"]:hover {
+    background: #499F68;
+    color: white;
+    transition: 0,8s;
+}
+
+.section1 .expo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section1 .expo #div1 {
+    margin: 10px 0;
+}
+
+
+
+
+/* ---###---###--- Section 2 ---###---###--- */
+.section2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-left: 2px solid #333;
+}
+
+.section2 img {
+    height: 120px;
+    width: 200px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ---###---###--- Image Zoom ---###---###---
+.imageZoom {
+    width: 900px;
+    height: auto;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.imageZoom:hover {
+    transform: scale(3);
+}
+*/
+
+
+
+/* ---###---###--- Drag & Drop ---###---###--- */
+#div1 {
+    width: 201px;
+    height: 121px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    background: red;
+}
+
+.expo img {
+    height: 120px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
